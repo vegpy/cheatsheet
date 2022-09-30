@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>HTML & CSS <br> cheatsheet</h1>
+        <h2>HTML</h2>
+        <h3>Tables</h3>
+        <h4>Table tag</h4>
+        <table>
+            <thead>
+                <th>tag</th>
+                <th>name</th>
+                <th>description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>table</td>
+                    <td>Table</td>
+                    <td>The wrapper element for all HTML tables.</td>
+                </tr>
+                <tr>
+                    <td>thead</td>
+                    <td>Table Head</td>
+                    <td>The set of rows defining the column headers in a table.</td>
+                </tr>
+                <tr>
+                    <td>tbody</td>
+                    <td>Table Body</td>
+                    <td>The set of rows containing actual table data.</td>
+                </tr>
+                <tr>
+                    <td>tr</td>
+                    <td>Table Row</td>
+                    <td>The table row container.</td>
+                </tr>
+                <tr>
+                    <td>td</td>
+                    <td>Table Data</td>
+                    <td>The table row container.</td>
+                </tr>
+                <tr>
+                    <td>tfoot</td>
+                    <td>Table foot</td>
+                    <td>The set of rows defining the footer in a table.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Table Attributes</h4>
+        <table>
+            <thead>
+                <th>Attribute</th>
+                <th>Name</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>colspan</td>
+                    <td>Column Span</td>
+                    <td>Defines how many columns a td element should span.</td>
+                </tr>
+                <tr>
+                    <td>rowspan</td>
+                    <td>Row Span</td>
+                    <td>Defines how many rows a td element should span.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>CSS</h2>
+        <h3>Positioning in CSS</h3>
+        <table>
+            <thead>
+                <th>Selector</th>
+                <th>Name</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Position</td>
+                    <td>Static</td>
+                    <td>The element is positioned according to the normal flow of the document</td>
+                </tr>
+                <tr>
+                    <td>Position</td>
+                    <td>Relative</td>
+                    <td>The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements; thus, the space given for the element in the page layout is the same as if position were static.</td>
+                </tr>
+                <tr>
+                    <td>Position</td>
+                    <td>Absolute</td>
+                    <td>The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block. Its final position is determined by the values of top, right, bottom, and left.</td>
+                </tr>
+                <tr>
+                    <td>Position</td>
+                    <td>fixed</td>
+                    <td>The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to the initial containing block established by the viewport, except when one of its ancestors has a transform, perspective, or filter property set to something other than none (see the CSS Transforms Spec), or the will-change property is set to transform, in which case that ancestor behaves as the containing block. (Note that there are browser inconsistencies with perspective and filter contributing to containing block formation.) Its final position is determined by the values of top, right, bottom, and left.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Position</td>
+                    <td>Sticky</td>
+                    <td>The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements, based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements.
+
+                        This value always creates a new stacking context. Note that a sticky element "sticks" to its nearest ancestor that has a "scrolling mechanism" (created when overflow is hidden, scroll, auto, or overlay), even if that ancestor isn't the nearest actually scrolling ancestor.</td>
+                </tr>
+            </tbody>
+        </table>
+       
+    </body>
+</html>
